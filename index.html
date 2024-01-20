@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Right Triangle Star Pattern</title>
+</head>
+<body>
+<script>
+function star(){
+ let m = 5;
+ let n=5;
+for (let i = 1; i <= m; i++) {
+  for (let j = 0; j <= n - i; j++) {
+    document.write("&nbsp&nbsp");
+  }
+  for (let k = 0; k<i; k++) {
+    document.write("*");
+  }
+  document.write("<br>");
+}
+}
+star();
+</script>
+</body>
+</html>
